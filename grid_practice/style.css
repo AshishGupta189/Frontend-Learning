@@ -1,0 +1,94 @@
+/* css boilerplate code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 50% 48%;
+    justify-content: space-between;
+}
+#left{
+    height: 100%;
+    width: 100%;
+    padding: 2vw;
+    position: relative;
+    padding-left: 5vw;
+    font-family: sans-serif;
+}
+#right{
+    height: 100%;
+    width: 100%;
+    padding: 2vw;
+    padding-left: -10%;
+    position: relative;
+}
+
+#right>img{
+    height: 90vh;
+    width: 85%;
+}
+.ri-search-line{
+    position: absolute;
+    top: 5vh;
+    left: 40vw;
+}
+.ri-arrow-right-circle-fill{
+    position: absolute;
+    font-size: 80px;
+    top:43%;
+    left: -2%;
+    height: 50px;
+    width: 100%;
+    color: orange;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box{
+    height: 10px;
+    width: 10px;
+    rotate: 45deg; 
+    background-color: black;
+}
+#title{
+    margin-top: 60px;
+    justify-items: end;
+}
+#content{
+    height: 45%;
+    width: 90%;
+    margin-top: 40px;
+}
+#content h2{
+    font-size: 70px;
+    font-weight: 100;
+}
+
+#content h2:nth-child(2n){
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+    
+}
+#content h2:nth-child(2){
+    padding-right: 90px;
+}
+
+#footer p{
+    padding-top: 50px;
+} 
