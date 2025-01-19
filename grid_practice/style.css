@@ -13,9 +13,8 @@ html,body{
 #main{
     height: 100%;
     width: 100%;
-    background-color: #fff;
     display: grid;
-    grid-template-columns: 50% 48%;
+    grid-template-columns: 50% 50%;
     justify-content: space-between;
 }
 #left{
@@ -41,7 +40,7 @@ html,body{
 .ri-search-line{
     position: absolute;
     top: 5vh;
-    left: 40vw;
+    left: 45vw;
 }
 .ri-arrow-right-circle-fill{
     position: absolute;
