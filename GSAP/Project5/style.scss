@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    body:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.section1{
+    position: relative;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 3rem;
+        align-items: center;
+    
+        h1{
+            font-size: 30px;
+            font-weight: 600;
+    
+            i{
+                display: inline-block;
+                rotate: 45deg;
+            }
+        }
+        .part2  {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:40px;
+    
+            button{
+                padding: 15px 25px ;
+                border-radius: 10px;
+                border: 2px solid black;
+                font-weight: 600;
+                background-color: transparent;
+            }
+        }
+        
+        
+    }
+    
+    .center{
+        height: 80%;
+        padding: 2rem 4rem;
+        width: 100%;
+        display: flex;
+        position: relative;
+    
+        .center-part1{
+            height: 100%;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+    
+            h1{
+                font-size: 3.75rem;
+                font-weight: 600;
+                line-height: 1.1;
+            }
+            p{
+                font-size: 1.5rem;
+                font-weight: 400;
+            }
+    
+            button{
+                padding: 22px 40px;
+                width: fit-content;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                font-size: 25px;
+                font-weight: 500;
+                background-color: black;
+            }
+        }
+        .center-part2{
+            width: 60%;
+            position: relative;
+            
+            img{
+                height: 100%;
+                position: absolute;
+                right: 0;
+            }
+        }
+    }
+
+    .section1bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+
+        img{
+            height: 60px;
+        }
+    }
+    
+}
+
+.section2{
+    .services{
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap:40px;
+        h3{
+            background-color: #9AE975;
+            padding: 15px 20px;
+            font-weight: 500;
+            font-size: 25px;
+            border-radius: 10px;
+        }
+        p{
+            width: 40%;
+            font-size: 18px;
+        }
+    }
+
+    .container{
+        height: 80%;
+        width: 100%;
+        padding: 40px 100px;    
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+        flex-wrap: wrap;
+        
+    
+        .elem{
+            height: 300px;
+            flex-shrink: 0;
+            padding: 30px;
+            width: 46%;
+            border-radius: 20px;
+            border: 2px solid black;
+            box-shadow: 0px 5px 0px black;
+            display: flex;
+
+            .elempart1{
+                height: 100%;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+
+                h1{
+                    font-size: 30px;
+                    font-weight: 500;
+                    width: 80%;
+                    border-radius: 10px;
+                    padding: 0px 5px;
+                    background-color: #9AE975;
+                }
+                h4{
+                    font-size: 25px;
+                    display: flex;
+                    align-items: center;
+                    font-weight: 500;
+                    gap:20px;
+
+                    i{
+                        padding: 1  0px;
+                        background-color: black;
+                        color: white;
+                        border-radius: 50%  ;
+                    }
+                }
+            }
+
+            .elempart2{
+                height: 100%;
+                width: 50%;
+
+                img{
+                    height: 100%;
+                }
+            }
+        }
+
+        .black{
+            background-color: black;
+            .elempart1{
+                h1{
+                    background-color: white;
+                }
+                h4{
+                    color: white;
+                    i{
+                        color: black;
+                        background-color: white;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.section3{
+    height:100px;
+    width: 100%;
+}
