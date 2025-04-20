@@ -1,0 +1,452 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: rgb(253, 251, 245);
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+main {
+  padding: 2rem;
+  padding-top: 3rem;
+  width: 100%;
+  border: 1px solid black;
+}
+
+body {
+  padding: 1rem;
+}
+
+.line {
+  height: 1px;
+  background-color: black;
+}
+
+.view-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.view-1 p {
+  font-weight: 300;
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+.view-1 h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  width: 70%;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.view-1 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+
+.view-2 {
+  margin: 2rem 0;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.view-2 .left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view-2 .left p {
+  font-weight: 300;
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+.view-2 .left h1 {
+  font-size: 3.3rem;
+  font-weight: 400;
+  line-height: 0.9;
+  margin-top: 1.5rem;
+}
+.view-2 .left button {
+  padding: 1rem;
+  border: 0.7rem;
+  background-color: black;
+  border-radius: 0.5em;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: rgb(234, 228, 228);
+}
+.view-2 .right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view-2 .right .elem {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-2 .right .elem h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.view-2 .right .elem p {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.view-2 .right .elem svg {
+  width: 4rem;
+  aspect-ratio: 1/1;
+}
+
+.view-3 {
+  padding: 3rem 0;
+  height: -moz-min-content;
+  height: min-content;
+}
+.view-3 .content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view-3 .content .left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-3 .content .left h1 {
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 500;
+}
+.view-3 .content .left p {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+.view-3 .content .right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+.view-3 .content .right .right-top, .view-3 .content .right .right-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view-3 .content .right .right-top .elem h1, .view-3 .content .right .right-bottom .elem h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.view-3 .content .right .right-top .elem p, .view-3 .content .right .right-bottom .elem p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+.view-3 .content .right .right-top video, .view-3 .content .right .right-bottom video {
+  width: 100%;
+  aspect-ratio: 1/0.6;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.5em;
+}
+
+.view-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 0;
+}
+.view-4 .left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view-4 .left .contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-4 .left .contact p {
+  font-weight: 300;
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+.view-4 .left .contact h1 {
+  font-size: 3.4rem;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+.view-4 .left svg {
+  width: 4rem;
+  aspect-ratio: 1/1;
+}
+.view-4 .line {
+  width: 1px;
+  height: initial;
+}
+.view-4 .right {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.view-4 .right button {
+  padding: 1rem;
+  border: 0.7rem;
+  background-color: black;
+  border-radius: 0.5em;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: rgb(234, 228, 228);
+}
+.view-4 .right p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.view-5 {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view-5 .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 42%;
+}
+.view-5 .left .content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.view-5 .left .content p {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.view-5 .left .content .logo {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+}
+.view-5 .left .content .logo svg {
+  width: 45%;
+  aspect-ratio: 1/1;
+}
+.view-5 .left .icons {
+  display: flex;
+  gap: 0.8rem;
+}
+.view-5 .left .icons .icon {
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.view-5 .left .icons .icon p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.view-5 .right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.view-5 .right .elem {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.view-5 .right .elem h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.view-5 .right .elem p {
+  font-size: 1.2rem;
+}
+.view-5 .right .elem button {
+  font-size: 1.2rem;
+  padding: 0.6rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: black;
+  color: rgb(226, 219, 219);
+  border-radius: 0.5em;
+}
+
+.footer {
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+.footer h1 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.footer .footp {
+  display: flex;
+  gap: 2rem;
+}
+.footer .footp p {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.lo {
+  height: 20px;
+}
+
+@media (min-width: 1060px) {
+  main {
+    padding: 3rem;
+  }
+  .view-1 h1 {
+    font-size: 6rem;
+    width: 50%;
+  }
+  .view-2 {
+    flex-direction: row;
+    padding: 2rem 0;
+  }
+  .view-2 .left {
+    justify-content: space-between;
+    width: 60%;
+  }
+  .view-2 .left h1 {
+    margin-top: 2rem;
+    font-size: 5rem;
+  }
+  .view-2 .line {
+    height: initial;
+    width: 1px;
+  }
+  .view-2 .right {
+    width: 32%;
+  }
+  .view-2 .right .line {
+    height: 1px;
+    width: initial;
+  }
+  .view-3 {
+    flex-direction: row;
+    position: relative;
+  }
+  .view-3 .content {
+    position: relative;
+    flex-direction: row;
+  }
+  .view-3 .content .left {
+    position: sticky;
+    top: 2rem;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .view-3 .content .right .right-top, .view-3 .content .right .right-bottom {
+    flex-direction: row;
+    gap: 3rem;
+  }
+  .view-3 .line {
+    height: initial;
+    width: 1px;
+  }
+  .view-4 {
+    flex-direction: row;
+    height: 42rem;
+  }
+  .view-4 .right {
+    justify-content: space-between;
+    width: 30%;
+  }
+  .view-4 .right p {
+    font-size: 1.6rem;
+  }
+  .view-4 .left {
+    width: 70%;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .view-4 .left .contact h1 {
+    font-size: 6rem;
+  }
+  .view-5 {
+    padding: 4rem 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .view-5 .left {
+    width: 25%;
+  }
+  .view-5 .left .content .logo {
+    width: 30%;
+  }
+  .view-5 .line {
+    height: initial;
+    width: 1px;
+  }
+  .view-5 .right {
+    width: 75%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .view-5 .right .line {
+    height: 1px;
+    width: initial;
+  }
+}
+@media (min-width: 780px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .view-5 {
+    padding: 4rem 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .view-5 .left {
+    width: 40%;
+  }
+  .view-5 .left .content .logo {
+    width: 45%;
+  }
+  .view-5 .line {
+    height: initial;
+    width: 1px;
+  }
+  .view-5 .right {
+    padding-left: 1rem;
+    width: 75%;
+    gap: 2rem;
+  }
+  .view-5 .right .line {
+    height: 1px;
+    width: initial;
+  }
+}/*# sourceMappingURL=style.css.map */
